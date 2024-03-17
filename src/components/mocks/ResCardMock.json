@@ -1,0 +1,90 @@
+{
+  "info": {
+      "id": "32844",
+      "name": "McDonald's",
+      "cloudinaryImageId": "f62564e14944753903849c4ef673af4d",
+      "locality": "LB Nagar",
+      "areaName": "Dharmapuri",
+      "costForTwo": "₹400 for two",
+      "cuisines": [
+          "Burgers",
+          "Beverages",
+          "Cafe",
+          "Desserts"
+      ],
+      "avgRating": 4.2,
+      "parentId": "630",
+      "avgRatingString": "4.2",
+      "totalRatingsString": "10K+",
+      "sla": {
+          "deliveryTime": 44,
+          "lastMileTravel": 11.8,
+          "serviceability": "SERVICEABLE",
+          "slaString": "40-45 mins",
+          "lastMileTravelString": "11.8 km",
+          "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+          "nextCloseTime": "2024-03-18 03:00:00",
+          "opened": true
+      },
+      "badges": {
+          "textExtendedBadges": [
+              {
+                  "iconId": "guiltfree/GF_Logo_android_3x",
+                  "shortDescription": "options available",
+                  "fontColor": "#7E808C"
+              }
+          ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+          "entityBadges": {
+              "imageBased": {},
+              "textBased": {},
+              "textExtendedBadges": {
+                  "badgeObject": [
+                      {
+                          "attributes": {
+                              "description": "",
+                              "fontColor": "#7E808C",
+                              "iconId": "guiltfree/GF_Logo_android_3x",
+                              "shortDescription": "options available"
+                          }
+                      }
+                  ]
+              }
+          }
+      },
+      "aggregatedDiscountInfoV3": {
+          "header": "FREE ITEM"
+      },
+      "orderabilityCommunication": {
+          "title": {},
+          "subTitle": {},
+          "message": {},
+          "customIcon": {}
+      },
+      "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {},
+              "video": {}
+          }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {}
+  },
+  "analytics": {
+      "context": "seo-data-5e983869-52e2-4db4-96a4-9c10018a2303"
+  },
+  "cta": {
+      "link": "https://www.swiggy.com/restaurants/mcdonalds-lb-nagar-dharmapuri-hyderabad-32844",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+  },
+  "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+}

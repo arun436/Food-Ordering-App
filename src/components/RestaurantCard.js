@@ -2,13 +2,17 @@ import { CON_URL } from "../utils/constants";
 
 const RestaurantCard = (props) => {
   const { resName } = props;
+  // console.log(resName);
 
   const { cloudinaryImageId, name, avgRating, cuisines, costForTwo, sla } =
     resName?.info;
 
   // console.log(resName.info)
   return (
-    <div className="m-4 p-4 w-[250px] flex flex-col justify-evenly hover:shadow-xl">
+    <div
+      data-testid="resCard"
+      className="m-4 p-4 w-[250px] flex flex-col justify-evenly hover:shadow-xl"
+    >
       <div>
         <img
           className="rounded-lg h-44 w-56"

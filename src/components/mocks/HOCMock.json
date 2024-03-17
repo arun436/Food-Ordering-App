@@ -1,0 +1,70 @@
+{
+    "info": {
+        "id": "651585",
+        "name": "Sri Venkata Sai Swagruha Foods",
+        "cloudinaryImageId": "8951a6325821579f1c66917825dbbc8b",
+        "locality": "Sachivalaya Nagar Colony",
+        "areaName": "Vanasthalipuram",
+        "costForTwo": "₹700 for two",
+        "cuisines": [
+            "Snacks"
+        ],
+        "avgRating": 4.4,
+        "veg": true,
+        "parentId": "392272",
+        "avgRatingString": "4.4",
+        "totalRatingsString": "1K+",
+        "sla": {
+            "deliveryTime": 35,
+            "lastMileTravel": 9.1,
+            "serviceability": "SERVICEABLE",
+            "slaString": "35-40 mins",
+            "lastMileTravelString": "9.1 km",
+            "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+            "nextCloseTime": "2024-03-17 22:00:00",
+            "opened": true
+        },
+        "badges": {},
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+            "entityBadges": {
+                "imageBased": {},
+                "textBased": {},
+                "textExtendedBadges": {}
+            }
+        },
+        "aggregatedDiscountInfoV3": {
+            "header": "40% OFF",
+            "subHeader": "UPTO ₹80"
+        },
+        "orderabilityCommunication": {
+            "title": {},
+            "subTitle": {},
+            "message": {},
+            "customIcon": {}
+        },
+        "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+            }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {
+        "context": "seo-data-530f5e5a-a8d4-4d93-81eb-4040e3f771e5"
+    },
+    "cta": {
+        "link": "https://www.swiggy.com/restaurants/sri-venkata-sai-swagruha-foods-sachivalaya-nagar-colony-vanasthalipuram-hyderabad-651585",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+}

@@ -52,14 +52,15 @@ const Body = () => {
     return <Shimmer />;
   }
 
-  console.log(filteredRestaurants);
+  // console.log(filteredRestaurants);
   return (
     <div className="body">
       <div className="flex">
         <div className="search m-4 p-4">
           <input
             type="text"
-            className="border border-solid border-black"
+            data-testid="searchInput"
+            className="border border-solid border-black p-2 rounded-lg"
             value={searchText}
             onChange={(e) => {
               setSearchText(e.target.value);
@@ -70,9 +71,10 @@ const Body = () => {
             onClick={() => {
               // Filter the restaurant cards and update the UI
               // Search Text
-              const filteredRes = ListOfRestaurants.filter((res) =>
-                res.info.name.includes(searchText)
-              );
+              const filteredRes = ListOfRestaurants.filter((res) => {
+                // console.log(res.info.name.includes(searchText), res.info.name);
+                return res.info.name.includes(searchText);
+              });
               setFilteredRestaurants(filteredRes);
             }}
           >
@@ -87,7 +89,11 @@ const Body = () => {
       </div>
       <div className="flex flex-wrap">
         {filteredRestaurants?.map((restaurant) => (
-          <Link to={"/restaurants/" + restaurant?.info?.id} className="link">
+          <Link
+            to={"/restaurants/" + restaurant?.info?.id}
+            className="link"
+            key={restaurant?.info?.id}
+          >
             {restaurant?.info?.veg ? (
               <RestaurantCardPromoted resName={restaurant} />
             ) : (

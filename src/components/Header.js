@@ -16,7 +16,7 @@ const Header = () => {
   let btnName = "Login";
 
   const cartItems = useSelector((store) => store.cart.items);
-  console.log(cartItems);
+  // console.log(cartItems);
 
   return (
     <div className="flex justify-between bg-slate-200 shadow-lg mb-2">
@@ -45,7 +45,7 @@ const Header = () => {
             <button
               className="px-4 py-1 border border-solid border-black rounded-lg bg-slate-700 text-white"
               onClick={() => {
-                setName("Logout");
+                name === "Login" ? setName("Logout") : setName("Login");
               }}
             >
               {name}
