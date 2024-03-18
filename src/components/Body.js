@@ -82,8 +82,26 @@ const Body = () => {
           </button>
         </div>
         <div className="m-4 p-4 flex items-center">
-          <button className="px-4 py-2 bg-slate-700 text-white rounded-lg">
+          <button
+            className="px-4 py-2 bg-slate-700 text-white rounded-lg"
+            onClick={() => {
+              const filteredRes = ListOfRestaurants.filter((res) => {
+                return res?.info?.avgRating >= 4.5;
+              });
+              setFilteredRestaurants(filteredRes);
+            }}
+          >
             Top Rated Restaurants
+          </button>
+        </div>
+        <div className="m-4 p-4 flex items-center">
+          <button
+            className="px-4 py-2 bg-slate-700 text-white rounded-lg"
+            onClick={() => {
+              setFilteredRestaurants(ListOfRestaurants);
+            }}
+          >
+            Clear Filter
           </button>
         </div>
       </div>
